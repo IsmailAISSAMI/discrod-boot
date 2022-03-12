@@ -7,44 +7,11 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Signup Now',
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text:
-          'Free access for all kind of exercise corrections with downloads.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
-        isAvailable: false,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
-        isAvailable: false,
-      },
-    ],
-  },
-  {
     header: 'Recommended',
     name: 'Premium',
     description: 'For startup enterprise',
     priceWithUnit: '$29.99/',
-    buttonText: 'Signup Now',
+    buttonText: 'Buy now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,

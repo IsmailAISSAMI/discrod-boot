@@ -12,25 +12,25 @@ const data = [
     id: 1,
     imgSrc: Vector,
     altText: 'Vector',
-    title: 'Vector Editing',
+    title: 'Multiple accounts',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Chat into 2 different channels at the same time with 2 different users.',
   },
   {
     id: 2,
     imgSrc: Editing,
     altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    title: 'Reply function',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Reply to messages from the other user which gives you more credibility and safe from ban.',
   },
   {
     id: 3,
     imgSrc: Speed,
     altText: 'Quality',
-    title: 'Quality & Short-period',
+    title: 'Message generator',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Generate and customize your own conversation between the users and make it as long as you wish with the possibility to step up time between each message.',
   },
 ];
 
