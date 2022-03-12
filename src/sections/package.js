@@ -8,9 +8,9 @@ import PatternBG from 'assets/patternBG.png';
 const packages = [
   {
     header: 'Exclusive Offer 10% Off',
-    name: 'Recommended',
+    name: 'One time purchase',
     description: 'For Individual Use',
-    priceWithUnit: '$179.99$',
+    priceWithUnit: '179.99$',
     buttonText: 'Buy now',
     points: [
       {

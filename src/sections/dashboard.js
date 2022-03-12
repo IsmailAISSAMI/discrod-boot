@@ -5,39 +5,42 @@ import { jsx, Box, Container } from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
-import PieChart from 'components/icons/pie-chart';
-import Cog from 'components/icons/cog';
-import Currency from 'components/icons/currency';
-import Briefcase from 'components/icons/briefcase';
+
+import Message from 'components/icons/message';
+import Configuration from 'components/icons/configuration';
+import Interval from 'components/icons/interval';
+import Demo from 'components/icons/demo';
 import TabButton from 'components/tabs/tab-button';
 
-import taskManager from 'assets/task-manager.png';
-import coreFeature from 'assets/coreFeature.png'
+import Gif1 from 'assets/gif/Gif-01.gif';
+import Gif2 from 'assets/gif/Gif-02.gif';
+import Gif3 from 'assets/gif/Gif-03.gif';
+import Gif4 from 'assets/gif/Gif-04.gif';
 
 const data = [
   {
     id: 1,
-    title: 'Task Manager',
-    icon: <PieChart />,
-    image: taskManager,
+    title: 'Message generator',
+    icon: <Message />,
+    image: Gif1,
   },
   {
     id: 2,
-    title: 'Create & Adjust',
-    icon: <Cog />,
-    image: coreFeature,
+    title: 'Configuration',
+    icon: <Configuration />,
+    image: Gif2,
   },
   {
     id: 3,
-    title: 'Website optimizer',
-    icon: <Currency />,
-    image: taskManager,
+    title: 'Setting interval',
+    icon: <Interval />,
+    image: Gif3,
   },
   {
     id: 4,
-    title: 'Budget tracker',
-    icon: <Briefcase />,
-    image: taskManager,
+    title: 'Demonstration',
+    icon: <Demo />,
+    image: Gif4,
   },
 ];
 
@@ -47,8 +50,8 @@ const Dashboard = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Ultimate features in one dashboard"
-          description="he most intuitive design toolbox to create your next project. From ideation to user testing."
+          title="WHATS THE FUNCTION"
+          description="Let’s see how it works."
         />
         <Tabs sx={styles.dashboardTabs} animated={{ tabPane: true }}>
           {data.map((tab) => (
@@ -73,9 +76,12 @@ const styles = {
   heading: {
     marginBottom: [6, null, null, 12],
     maxWidth: ['none', null, null, 565, null, 'none'],
+
     p: {
       color: rgba('#02073E', 0.7),
       maxWidth: 445,
+      fontSize: '16px',
+      fontWeight: 500,
     },
   },
   dashboardTabs: {

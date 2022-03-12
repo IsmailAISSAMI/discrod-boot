@@ -38,7 +38,6 @@ export default function PriceCard({
               <span>Starting from</span>
               <div className="price">
                 {priceWithUnit}
-                <sub>mo</sub>
               </div>
             </Text>
           )}

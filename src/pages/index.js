@@ -27,7 +27,7 @@ export default function IndexPage() {
           <CoreFeature /> 
           <Feature />
           {/* <PartnerSection /> */}
-          <WorkFlow />
+          {/* <WorkFlow /> */}
           <Dashboard />
           <TestimonialCard />
           {/* <SecurePayment /> */}

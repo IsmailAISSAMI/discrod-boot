@@ -21,8 +21,8 @@ const styles = {
     lineHeight: 1,
     svg: {
       mr: ['7px', , null, null, '12px'],
-      height: 20,
-      width: 20,
+      height: 24,
+      width: 24,
     },
   },
 };
