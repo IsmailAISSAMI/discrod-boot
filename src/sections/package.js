@@ -7,36 +7,31 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
+    header: 'Exclusive Offer 10% Off',
+    name: 'Recommended',
+    description: 'For Individual Use',
+    priceWithUnit: '$179.99$',
     buttonText: 'Buy now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Multiple accounts and channels use.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Unlimited usage time.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Message generator website to generate and customize your own conversation between the users.',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Customer support to help you in case of any problem.',
         isAvailable: true,
       },
     ],

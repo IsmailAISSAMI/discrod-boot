@@ -10,6 +10,7 @@ import CoreFeature from 'sections/core-feature';
 import Feature from 'sections/feature';
 import PartnerSection from 'sections/partner';
 import WorkFlow from 'sections/workflow';
+import Dashboard from 'sections/dashboard';
 import TestimonialCard from 'sections/testimonial';
 import SecurePayment from 'sections/secure-payment';
 import Package from 'sections/package';
@@ -27,6 +28,7 @@ export default function IndexPage() {
           <Feature />
           {/* <PartnerSection /> */}
           <WorkFlow />
+          <Dashboard />
           <TestimonialCard />
           {/* <SecurePayment /> */}
           <Package />
