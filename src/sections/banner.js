@@ -47,9 +47,7 @@ export default function Banner() {
             Guarantee your whitelist with WhiteLister reply chat bot
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+          WhiteLister is a reply chatbot that allows you to automate conversation between multiple users on Discord.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">

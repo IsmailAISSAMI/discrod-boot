@@ -1,54 +1,50 @@
 /** @jsx jsx */
-import { jsx, Container, Box } from 'theme-ui';
-import SectionHeader from 'components/section-header';
-import Accordion from 'components/accordion/accordion';
+import { jsx, Container, Box } from "theme-ui";
+import SectionHeader from "components/section-header";
+import Accordion from "components/accordion/accordion";
 const faqs = [
   {
-    title: 'How to contact with riders emergency ?',
+    title: "I just paid where can I get the bot?",
     contents: (
       <div>
-        Get your website ads tests delivered at let collect sample from the
-        victory of the managements that supplies best design system which
-        guidelines ever with multiple features.
+        Once the payment is confirmed you will receive an email with a download
+        link, license key, and structures to help you start.
       </div>
     ),
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: "How many users can I connect with at the same time?",
     contents: (
       <div>
-        Rhino skin maybe thick but it can be quite sensitive to sunburns and
-        insect bites which is why they like wallow so much – when the mud dries
-        it acts as protection from the sunburns and insects.
+        You can connect 2 users at the same time but you can launch 2 different
+        conversations in 2 different channels with them, so you can grind in 2
+        different projects at the same time.
       </div>
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: `How much time do you think I need to guarantee a wl using the bot?`,
     contents: (
       <div>
-        Get your blood tests delivered at the home collect a sample from
-        management news. Get your blood tests delivered at the home collect a
-        sample from management news. Get your blood tests delivered at the home
-        collect a sample from management news. Get your blood tests delivered at
-        the home.
+        Between 2 and 5 days is more than enough to guarantee your wl, but make
+        sure to set up a good long conversation, and change the channel from
+        time to time.
       </div>
     ),
   },
   {
-    title: `New update fixed all bug and issues`,
+    title: `How much time should I put between messages?`,
     contents: (
       <div>
-        If you’re looking to hunt a unicorn, but don’t know where to begin, try
-        Lake Superior State University in Sault Ste. Marie, Michigan. Since
-        1971, the university has issued permits to unicorn questers.
+        An interval of 10 seconds is advised between the question/message of
+        user 1 and the response of user 2 and an interval of 50 to 60 seconds is adv.
       </div>
     ),
   },
 ];
 export default function Faq() {
   return (
-    <section sx={{ variant: 'section.faq' }}>
+    <section sx={{ variant: "section.faq" }}>
       <Container>
         <SectionHeader
           title="Frequently asked question"
@@ -56,10 +52,10 @@ export default function Faq() {
         />
         <Box
           sx={{
-            display: 'flex',
-            width: ['100%', null, null, '650px', '745px'],
-            flexDirection: 'column',
-            mx: 'auto',
+            display: "flex",
+            width: ["100%", null, null, "650px", "745px"],
+            flexDirection: "column",
+            mx: "auto",
             my: -4,
           }}
         >
