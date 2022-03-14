@@ -25,11 +25,11 @@ export default function IndexPage() {
     // Check to see if this is a redirect back from Checkout
     const query = new URLSearchParams(window.location.search);
     if (query.get('success')) {
-      alert('Order placed! You will receive an email confirmation.');
+      alert('Order placed! you will receive an email with a download link, license key, and structures to help you start.');
     }
 
     if (query.get('canceled')) {
-     alert('Order canceled -- continue to shop around and checkout when you’re ready.');
+     alert('Order canceled! please try again.');
     }
   }, []);
 
