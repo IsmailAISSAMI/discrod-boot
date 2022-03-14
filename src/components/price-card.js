@@ -12,6 +12,7 @@ export default function PriceCard({
     points,
   },
 }) {
+  
   return (
     <Card className={header ? "active" : null} sx={styles.pricingBox}>
       {header && <Text sx={styles.header}>{header}</Text>}
