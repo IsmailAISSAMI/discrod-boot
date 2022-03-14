@@ -30,7 +30,7 @@ const data = [
     altText: 'Quality',
     title: 'Message generator',
     text:
-      'Generate and customize your own conversation between the users and make it as long as you wish with the possibility to step up time between each message.',
+      'Generate and customize your own conversation between the users and make it as long as you wish.',
   },
 ];
 

@@ -3,29 +3,29 @@ import { jsx, Container, Box, Grid, Text, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import CoreFeatureThumb from 'assets/coreFeature.png';
+import CoreFeatureThumb from 'assets/gif/Gif-02.gif';
 import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  title: 'Simple, Quick and easy to use',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Multiple accounts',
+      title: 'Multiple accounts',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Connect two accounts one to send questions and another to answer them, we recommend that you make your principal account a receiver since it has less chance to be detected as a bot.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Channels and Message generator',
+      title: 'Channels and Message generator',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Have two different conversations in two different channels at the same time, simply by changing the channel link and message code and launching the bot multiple times.',
     },
   ],
 };

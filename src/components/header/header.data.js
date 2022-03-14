@@ -7,10 +7,10 @@ export default [
     path: 'feature',
     label: 'Features',
   },
-  {
-    path: 'testimonial',
-    label: 'Testimonial',
-  },
+  // {
+  //   path: 'testimonial',
+  //   label: 'Testimonial',
+  // },
   {
     path: 'pricing',
     label: 'Pricing',

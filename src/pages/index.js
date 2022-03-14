@@ -8,11 +8,11 @@ import Layout from 'components/layout';
 import Banner from 'sections/banner';
 import KeyFeature from 'sections/key-feature';
 import CoreFeature from 'sections/core-feature';
-import Feature from 'sections/feature';
+//import Feature from 'sections/feature';
 //import PartnerSection from 'sections/partner';
 //import WorkFlow from 'sections/workflow';
 import Dashboard from 'sections/dashboard';
-import TestimonialCard from 'sections/testimonial';
+//import TestimonialCard from 'sections/testimonial';
 //import SecurePayment from 'sections/secure-payment';
 import Package from 'sections/package';
 import Faq from 'sections/faq';
@@ -42,11 +42,11 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <CoreFeature /> 
-          <Feature />
+          {/* <Feature /> */}
           {/* <PartnerSection /> */}
           {/* <WorkFlow /> */}
           <Dashboard />
-          <TestimonialCard />
+          {/* <TestimonialCard /> */}
           {/* <SecurePayment /> */}
           <Package />
           <Faq />
