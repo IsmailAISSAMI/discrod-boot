@@ -4,23 +4,16 @@ export default [
     items: [
       {
         path: '/',
-        label: 'Support Center',
+        label: 'WhiteLister is a reply chatbot that allows you to automate conversation between multiple users on Discord.',
       },
+    ],
+  },
+  {
+    header: 'Contact us',
+    items: [
       {
         path: '/',
-        label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
+        label: 'If you have any questions, you can contact us by email: whitelister.team@gmail.com',
       },
     ],
   },
@@ -38,60 +31,6 @@ export default [
       {
         path: '/',
         label: 'Terms & Conditions',
-      },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
-      },
-    ],
-  },
-  {
-    header: 'My Account',
-    items: [
-      {
-        path: '/',
-        label: 'Press inquiries',
-      },
-      {
-        path: '/',
-        label: 'Social media ',
-      },
-      {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
-      },
-    ],
-  },
-  {
-    header: 'Policy',
-    items: [
-      {
-        path: '/',
-        label: 'Application security',
-      },
-      {
-        path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
       },
     ],
   },
