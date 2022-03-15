@@ -29,7 +29,7 @@ export default [
         label: 'Privacy Policy',
       },
       {
-        path: '/',
+        path: '/policy',
         label: 'Terms & Conditions',
       },
     ],
