@@ -25,11 +25,11 @@ export default [
         label: 'Return Policy ',
       },
       {
-        path: '/',
+        path: '/privacy',
         label: 'Privacy Policy',
       },
       {
-        path: '/policy',
+        path: '/cookies',
         label: 'Terms & Conditions',
       },
     ],
