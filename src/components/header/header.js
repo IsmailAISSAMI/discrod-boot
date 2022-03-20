@@ -37,7 +37,13 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-            Get Started
+            <Link
+                to={'pricing'}
+                spy={true}
+                smooth={true}
+              >
+                Get Started
+              </Link>
           </Button>
 
           <MobileDrawer />

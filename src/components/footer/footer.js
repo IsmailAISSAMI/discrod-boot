@@ -41,6 +41,7 @@ const styles = {
       borderTop: '1px solid',
       borderTopColor: 'border_color',
       display: 'flex',
+      justifyContent: 'space-around',
       flexWrap: 'wrap',
       pt: [7, null, 8],
       pb: ['10px', null, null, '20px'],
